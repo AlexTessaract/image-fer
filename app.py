@@ -27,7 +27,7 @@ app = Flask(__name__)
 # Check https://keras.io/applications/
 # or https://www.tensorflow.org/api_docs/python/tf/keras/applications
 
-from tensorflow.keras.applications.vgg16 import VGG16
+from tensorflow.keras.applications.VGG16 import VGG16
 model = VGG16(weights='imagenet')
 
 print('Model loaded. Check http://127.0.0.1:5000/')
